@@ -1,0 +1,32 @@
+name: flutter_stores_example
+description: An example app demonstrating the usage of the Flutter Stores package.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Include the framework as a local dependency
+  upper_flutter_stores:
+    path: ../
+
+  # Optional dependencies for the example app
+  provider: ^6.0.5
+  shared_preferences: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Add linting or formatting tools if desired
+  lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  #assets:
+  #  - assets/
