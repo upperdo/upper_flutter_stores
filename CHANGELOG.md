@@ -50,6 +50,10 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Upgraded dependencies
 
+## [0.1.7] - 2025-01-25
+### Added
+- Changed Package name to avoid collision with others
+
 ### Improved
 - Optimized `_notifyListeners` in `BaseStore` for better performance with large subscriber counts.
 - Refactored individual stores to support lifecycle management and debugging seamlessly.
