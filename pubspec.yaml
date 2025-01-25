@@ -2,7 +2,7 @@ name: upper_flutter_stores
 description: >
   A lightweight, super-friendly, and non-verbose state management solution for Flutter inspired by Svelte stores.
   Provides a unified API and modular stores for flexibility, performance, and scalability.
-version: 0.1.8
+version: 0.1.9
 homepage: https://github.com/upper/upper_flutter_stores
 repository: https://github.com/upper/upper_flutter_stores
 issue_tracker: https://github.com/upper/upper_flutter_stores/issues
