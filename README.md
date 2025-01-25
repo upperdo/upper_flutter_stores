@@ -204,4 +204,4 @@ flutter test
 
 ## 📚 Documentation
 
-Check the [full documentation](https://github.com/acidlake/upper_flutter_stores) for more details and advanced examples.
+Check the [full documentation](https://github.com/upper/upper_flutter_stores) for more details and advanced examples.
