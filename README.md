@@ -70,6 +70,8 @@ void main() {
   store.persist(); // Save state
 }
 ```
+## 💡 Full Demo
+Check the [xample](https://github.com/upper/upper_flutter_stores) for more details.
 
 ---
 
