@@ -5,7 +5,7 @@ version: 0.1.12
 homepage: https://github.com/upperdo/upper_flutter_stores
 repository: https://github.com/upperdo/upper_flutter_stores
 issue_tracker: https://github.com/upperdo/upper_flutter_stores/issues
-documentation: https://github.com/upperdo/upper_flutter_stores#readme
+documentation: https://github.com/upperdo/upper_flutter_stores/blob/main/docs/README.md
 
 environment:
   sdk: ">=2.18.0 <4.0.0"
