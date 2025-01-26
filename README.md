@@ -206,4 +206,4 @@ flutter test
 
 ## 📚 Documentation
 
-Check the [full documentation](https://github.com/upperdo/upper_flutter_stores/blob/main/docs/README.md) for more details and advanced examples.
+Check the [full documentation](https://github.com/upperdo/upper_flutter_stores/tree/master/docs) for more details and advanced examples.
