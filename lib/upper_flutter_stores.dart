@@ -15,3 +15,10 @@ export 'src/middleware/middleware_store.dart';
 
 // Lifecycle Manager
 export 'src/lifecycle/store_lifecycle_manager.dart';
+
+// Store Providers
+export 'src/store/store_provider.dart';
+export 'src/store/store_consumer.dart';
+export 'src/store/multi_store_provider.dart';
+export 'src/store/store_interface.dart';
+export 'src/store/store_definition.dart';

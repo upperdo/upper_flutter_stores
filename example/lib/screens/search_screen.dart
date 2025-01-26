@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_stores_example/todo_provider.dart';
+import 'package:flutter_stores_example/store/todo_store.dart';
+import 'package:upper_flutter_stores/upper_flutter_stores.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({Key? key}) : super(key: key);
@@ -14,7 +15,7 @@ class _SearchScreenState extends State<SearchScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final store = TodoProvider.of(context).todoStore;
+    final store = StoreProvider.of<TodoStore>(context);
 
     return Scaffold(
       appBar: AppBar(
