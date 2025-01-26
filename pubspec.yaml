@@ -1,11 +1,11 @@
 name: upper_flutter_stores
 description: >
   A lightweight, super-friendly, and non-verbose state management solution for Flutter.
-version: 0.1.12
+version: 0.1.13
 homepage: https://github.com/upperdo/upper_flutter_stores
 repository: https://github.com/upperdo/upper_flutter_stores
 issue_tracker: https://github.com/upperdo/upper_flutter_stores/issues
-documentation: https://github.com/upperdo/upper_flutter_stores/blob/main/docs
+documentation: https://github.com/upperdo/upper_flutter_stores/blob/master/docs/README.md
 
 environment:
   sdk: ">=2.18.0 <4.0.0"
