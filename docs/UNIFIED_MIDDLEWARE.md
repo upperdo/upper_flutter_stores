@@ -127,4 +127,4 @@ store.addMiddleware((oldState, newState) {
 
 Middleware is a powerful feature in **upper_flutter_stores** that allows you to enhance and control the behavior of your state management. Whether you're debugging, validating, or integrating analytics, middleware provides a flexible way to intercept and process state transitions.
 
-For more advanced configurations, refer to the documentation on [Unified Store Overview](UNIFIED_STORE_OVERVIEW.md).
+For more advanced configurations, refer to the documentation on [Unified Store Overview](UNIFIED_STORE.md).

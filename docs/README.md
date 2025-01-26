@@ -7,8 +7,8 @@
 3. [Features Overview](#features-overview)
    - [Unified Store Overview](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/UNIFIED_STORE.md)
    - [Provider Overview](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/PROVIDER_OVERVIEW.md)
-   - [StoreProvider](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/STOREPROVIDER.md)
-   - [StoreConsumer](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/STORECONSUMER.md)
+   - [StoreProvider](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/STORE_PROVIDER.md)
+   - [StoreConsumer](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/STORE_CONSUMER.md)
    - [MultiStoreProvider](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/MULTISTORE_PROVIDER.md)
    - [Undo/Redo Functionality](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/UNIFIED_UNDO_REDO.md)
    - [Snapshots and Replay](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/UNIFIED_SNAPSHOTS.md)
@@ -55,9 +55,9 @@ flutter pub get
 
 The **upper_flutter_stores** package offers:
 
-1. **[Unified Store Overview](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/UNIFIED_STORE_OVERVIEW.md)**: A single store encapsulating multiple functionalities such as persistence, undo/redo, snapshots, and more.
-2. **[StoreProvider](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/STOREPROVIDER.md)**: Dependency injection for state management.
-3. **[StoreConsumer](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/STORECONSUMER.md)**: Simplifies accessing the store in the widget tree.
+1. **[Unified Store Overview](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/UNIFIED_STORE.md)**: A single store encapsulating multiple functionalities such as persistence, undo/redo, snapshots, and more.
+2. **[StoreProvider](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/STORE_PROVIDER.md)**: Dependency injection for state management.
+3. **[StoreConsumer](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/STORE_CONSUMER.md)**: Simplifies accessing the store in the widget tree.
 4. **[MultiStoreProvider](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/MULTISTORE_PROVIDER.md)**: Manage multiple stores seamlessly.
 5. **[Undo/Redo Functionality](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/UNIFIED_UNDO_REDO.md)**: Enables undoing and redoing state changes easily.
 6. **[Snapshots and Replay](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/UNIFIED_SNAPSHOTS.md)**: Allows state snapshots and replay for debugging and more.
@@ -69,13 +69,13 @@ The **upper_flutter_stores** package offers:
 
 ## Architecture
 
-Learn about the architectural philosophy and design principles behind **upper_flutter_stores** in the [Architecture Guide](https://github.com/upperdo/upper_flutter_stores/blob/main/docs/ARCHITECTURE.md).
+Learn about the architectural philosophy and design principles behind **upper_flutter_stores** in the [Architecture Guide](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/ARCHITECTURE.md).
 
 ---
 
 ## API Definition
 
-For a detailed overview of available classes, methods, and their usage, refer to the [API Definition](https://github.com/upperdo/upper_flutter_stores/blob/main/docs/API_DEFINITION.md).
+For a detailed overview of available classes, methods, and their usage, refer to the [API Definition](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/API_DEFINITION.md).
 
 ---
 
