@@ -19,7 +19,9 @@ class PersistentCounterStore extends PersistentStore<int> {
           fromJson: (json) => json as int, // Deserialization logic
           toJson: (state) => state, // Serialization logic
           enableDebugging: true, // Enable debugging
-        );
+        ){
+    initializePersistence();
+  };
 
   void increment() {
     set(state + 1);
