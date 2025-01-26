@@ -71,7 +71,7 @@ void main() {
 }
 ```
 ## 💡 Full Demo
-Check the [xample](https://github.com/upperdo/upper_flutter_stores) for more details.
+Check the [Example](https://github.com/upperdo/upper_flutter_stores) for more details.
 
 ---
 
