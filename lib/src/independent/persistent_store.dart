@@ -24,6 +24,15 @@ class PersistentStore<T> extends BaseStore<T> {
     }
   }
 
+  @override
+  void set(T newState) {
+    super.set(newState);
+    notifyListeners(); // Ensure changes in PersistentStore propagate
+    if (enableDebugging) {
+      print('PersistentStore [$debugContext]: State updated to: $newState');
+    }
+  }
+
   /// Asynchronously load persisted state
   Future<void> initialize() async {
     if (enableDebugging) {
@@ -42,6 +51,7 @@ class PersistentStore<T> extends BaseStore<T> {
     }
     final prefs = await SharedPreferences.getInstance();
     final jsonString = jsonEncode(_toJson(state));
+    print('Persisting state: $jsonString'); // Add this log to debug
     await prefs.setString(_key, jsonString);
     if (enableDebugging) {
       print('PersistentStore [$debugContext]: State persisted: $jsonString');
