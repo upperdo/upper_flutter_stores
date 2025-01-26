@@ -5,7 +5,7 @@
 1. [Introduction](#introduction)
 2. [Installation](#installation)
 3. [Features Overview](#features-overview)
-   - [Unified Store Overview](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/UNIFIED_STORE_OVERVIEW.md)
+   - [Unified Store Overview](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/UNIFIED_STORE.md)
    - [Provider Overview](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/PROVIDER_OVERVIEW.md)
    - [StoreProvider](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/STOREPROVIDER.md)
    - [StoreConsumer](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/STORECONSUMER.md)
