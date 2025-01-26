@@ -14,10 +14,14 @@ class Store<T> extends BaseStore<T> {
   final SnapshotStore<T>? _snapshotFeature;
   final List<Middleware<T>> _middlewares = [];
 
+  final bool _enableUndoRedo;
+  final bool _enablePersistence;
+  final bool _enableSnapshots;
+
   Store(
     T initialState, {
     bool enableDebugging = false,
-    String? debugContext, // Pass debugging context
+    String? debugContext,
     bool enableUndoRedo = false,
     bool enablePersistence = false,
     String? persistKey,
@@ -29,7 +33,10 @@ class Store<T> extends BaseStore<T> {
     T Function()? compute,
     List<BaseStore<dynamic>>? computedDependencies,
     bool enableSnapshots = false,
-  })  : _undoableFeature = enableUndoRedo
+  })  : _enableUndoRedo = enableUndoRedo,
+        _enablePersistence = enablePersistence,
+        _enableSnapshots = enableSnapshots,
+        _undoableFeature = enableUndoRedo
             ? _initializeUndoableFeature(
                 initialState,
                 enableDebugging: enableDebugging,
@@ -90,6 +97,15 @@ class Store<T> extends BaseStore<T> {
       });
     }
   }
+
+  // Getter to check if undo/redo is enabled
+  bool get enableUndoRedo => _enableUndoRedo;
+
+  // Getter to check if persistence is enabled
+  bool get enablePersistence => _enablePersistence;
+
+  // Getter to check if snapshots are enabled
+  bool get enableSnapshots => _enableSnapshots;
 
   void addMiddleware(Middleware<T> middleware) {
     _middlewares.add(middleware);
@@ -199,12 +215,17 @@ class Store<T> extends BaseStore<T> {
     if (_persistentFeature != null) {
       _persistentFeature!.set(state);
     }
+
+    // Notify listeners after all features are updated
+    notifyListeners();
   }
 
   Future<void> initializePersistence() async {
     if (_persistentFeature != null) {
       await _persistentFeature!.initialize();
-      super.set(_persistentFeature!.state);
+      final restoredState = _persistentFeature!.state;
+      super.set(restoredState);
+      notifyListeners(); // Ensure the UI and listeners react to restored state
     } else {
       throw UnsupportedError('Persistence is not enabled for this Store.');
     }
