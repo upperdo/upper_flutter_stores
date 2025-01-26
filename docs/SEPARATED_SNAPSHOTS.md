@@ -1,6 +1,4 @@
-# Documentation: **upper_flutter_stores**
-
-### SnapshotStore
+# SnapshotStore
 
 The `SnapshotStore` is a powerful extension of `BaseStore` that allows you to take snapshots of the store's state at any point in time and replay those snapshots when needed. This feature is useful for implementing time-travel debugging, undo/redo functionality, or for maintaining different application states during development or testing.
 

@@ -1,6 +1,4 @@
-# Documentation: **upper_flutter_stores**
-
-### Persistence
+# Persistence
 
 The **`upper_flutter_stores`** package allows you to persist state effortlessly using the built-in **PersistentStore** feature. This functionality enables applications to maintain state across app restarts or page reloads.
 

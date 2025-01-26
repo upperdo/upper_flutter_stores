@@ -1,5 +1,4 @@
-# Documentation: **upper_flutter_stores**
-### PersistentStore
+# PersistentStore
 
 The `PersistentStore` is a specialized store that extends `BaseStore` to provide state persistence. It ensures that the store's state is saved and restored across app sessions, using mechanisms like `SharedPreferences` or other persistence solutions.
 

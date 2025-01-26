@@ -1,6 +1,4 @@
-# Documentation: **upper_flutter_stores**
-
-## Snapshots and Replay
+# Snapshots and Replay
 
 The `upper_flutter_stores` package provides a **snapshot** and **replay** mechanism, which allows you to take snapshots of your store's state and replay them later. This feature is particularly useful for debugging and state management in complex applications.
 

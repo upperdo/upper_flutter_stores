@@ -1,6 +1,4 @@
-# Documentation: **upper_flutter_stores**
-
-### BaseStore
+# BaseStore
 
 The `BaseStore` is the core store implementation in the `upper_flutter_stores` package. It provides essential state management functionality and serves as the foundation for all other store types. It is lightweight, efficient, and designed to be extended or used directly in applications.
 

@@ -1,6 +1,4 @@
-# Documentation: **upper_flutter_stores**
-
-## Unified Store Implementation
+# Unified Store Implementation
 
 The **Unified Store** allows you to combine various store functionalities (e.g., undoable, persistent, async) into a single, cohesive store.
 

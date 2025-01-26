@@ -1,5 +1,3 @@
-# Documentation: **upper_flutter_stores**
-
 # Separated Store Overview
 
 **Separated Stores** in the `upper_flutter_stores` package provide a modular and specialized approach to store management. These stores focus on individual features or functionalities, offering advanced capabilities tailored to specific needs.

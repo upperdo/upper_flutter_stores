@@ -1,6 +1,4 @@
-# Documentation: **upper_flutter_stores**
-
-## UndoableStore
+# UndoableStore
 
 The `UndoableStore` is a specialized store designed to handle undo and redo functionality. It allows you to revert to a previous state or reapply a reverted change. This is particularly useful in applications where users may need to undo actions or retry actions they've undone.
 

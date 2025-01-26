@@ -1,6 +1,4 @@
-# Documentation: **upper_flutter_stores**
-
-## Undo/Redo Functionality
+# Undo/Redo Functionality
 
 The **undo/redo** functionality in `upper_flutter_stores` allows you to manage state changes in a reversible manner. This feature is particularly useful for applications that require the ability to revert or redo changes, such as text editors, form inputs, or task managers.
 

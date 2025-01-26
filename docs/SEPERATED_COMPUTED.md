@@ -1,6 +1,4 @@
-# Documentation: **upper_flutter_stores**
-
-### ComputedStore
+# ComputedStore
 
 The `ComputedStore` enables reactive computations based on other stores' states. This is useful for deriving new state values that depend on one or more independent stores, ensuring the computed state updates automatically whenever the dependencies change.
 
