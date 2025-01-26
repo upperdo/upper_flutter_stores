@@ -204,6 +204,82 @@ flutter test
 
 ---
 
+# Pending Features Checklist for **upper_flutter_stores**
+
+This checklist outlines planned features for the **upper_flutter_stores** package to enhance functionality, usability, and appeal to both beginner and advanced users.
+
+## Core Enhancements
+
+- [ ] **Multi-Store Sync**
+  - Enable seamless synchronization of shared states across multiple stores.
+  - Provide middleware and event-based synchronization options.
+
+- [ ] **Caching Support**
+  - Middleware to automatically cache API responses based on rules.
+  - Configurable TTL (time-to-live) and cache invalidation options.
+
+- [ ] **DevTools Event Integration**
+  - Log and expose store events to DevTools using the `dart:developer` timeline.
+  - Enable visualization of store changes in a DevTools custom panel.
+
+- [ ] **Custom Event Viewer**
+  - Create a dedicated DevTools extension for monitoring `upper_flutter_stores.*` events.
+  - Display events like state changes, middleware logs, and snapshots in a table format.
+
+## Developer Experience
+
+- [ ] **Enhanced Debugging Panel**
+  - In-app debugging widget to visualize state, undo/redo history, and snapshots.
+  - Filter and search states by keywords for quick analysis.
+
+- [ ] **Type Safety Enhancements**
+  - Integrate stricter type definitions for common store patterns.
+  - Provide `TypedStore` examples for common use cases like models, lists, and maps.
+
+- [ ] **Error Boundary Middleware**
+  - Capture and gracefully handle errors within store state transitions.
+  - Prevent application crashes due to unexpected errors in state updates.
+
+## Advanced Features
+
+- [ ] **Immutable State Helpers**
+  - Introduce immutable state utilities for performance optimization.
+  - Automatically handle deep copies during state updates.
+
+- [ ] **Lazy Store Initialization**
+  - Load specific stores only when accessed, reducing initial memory footprint.
+
+- [ ] **State Export and Import**
+  - Add support for exporting and importing states as JSON for testing or migration.
+  - Useful for replicating bugs or transferring states between environments.
+
+## Ecosystem Expansion
+
+- [ ] **CLI Integration**
+  - Command-line tools to scaffold stores, generate models, and manage configurations.
+
+- [ ] **Enhanced Documentation**
+  - Add more examples, including real-world use cases.
+  - Provide dedicated guides for advanced features like computed stores and multi-store setups.
+
+- [ ] **Community Marketplace**
+  - Allow publishing and sharing custom middlewares, adapters, or store patterns.
+
+## Performance Improvements
+
+- [ ] **Batch State Updates**
+  - Optimize state updates by batching multiple changes into a single notification cycle.
+
+- [ ] **Selective Store Listeners**
+  - Enable widgets to listen to specific parts of the state for improved performance.
+
+--
+
 ## 📚 Documentation
 
 Check the [full documentation](https://github.com/upperdo/upper_flutter_stores/tree/master/doc) for more details and advanced examples.
+
+---
+
+### Contribution
+If you’re interested in contributing or suggesting additional features, please refer to the [CONTRIBUTING.md](https://github.com/upperdo/upper_flutter_stores/blob/master/doc/CONTRIBUTING.md).
