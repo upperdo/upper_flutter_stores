@@ -66,6 +66,14 @@ All notable changes to this project will be documented in this file.
 - Added StoreDefinition
 - Added Documentation
 
+## [0.1.14] - 2025-01-25
+### Added
+- Fixed missing characters on doducumentation
+
+## [0.1.15] - 2025-01-25
+### Added
+- Added USE Cases Examples on DOCS
+
 ### Improved
 - Optimized `_notifyListeners` in `BaseStore` for better performance with large subscriber counts.
 - Refactored individual stores to support lifecycle management and debugging seamlessly.

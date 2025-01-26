@@ -28,7 +28,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  upper_flutter_stores: ^0.1.13
+  upper_flutter_stores: ^0.1.15
 ```
 
 Run:
