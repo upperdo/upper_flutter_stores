@@ -11,12 +11,12 @@
 ### List of Separated Stores
 Here is a list of the separated stores available in the `upper_flutter_stores` package:
 
-1. **[BaseStore](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/SEPARATED_BASE.md)**: The foundational store that provides core functionality for state management.
-2. **[UndoableStore](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/SEPARATED_UNDOABLE.md)**: Adds undo/redo functionality to your state management.
-3. **[PersistentStore](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/SEPARATED_PERSISTENT.md)**: Enables persistence of state across app sessions using local storage.
-4. **[AsyncStore](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/SEPARATED_ASYNC.md)**: Handles asynchronous state updates, such as network requests or time-based updates.
-5. **[ComputedStore](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/SEPARATED_COMPUTED.md)**: Computes derived state based on dependencies, automatically recalculating when dependencies change.
-6. **[SnapshotStore](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/SEPARATED_SNAPSHOTS.md)**: Allows taking and replaying snapshots of the state for debugging or temporal operations.
+1. **[BaseStore](https://github.com/upperdo/upper_flutter_stores/blob/master/doc/SEPARATED_BASE.md)**: The foundational store that provides core functionality for state management.
+2. **[UndoableStore](https://github.com/upperdo/upper_flutter_stores/blob/master/doc/SEPARATED_UNDOABLE.md)**: Adds undo/redo functionality to your state management.
+3. **[PersistentStore](https://github.com/upperdo/upper_flutter_stores/blob/master/doc/SEPARATED_PERSISTENT.md)**: Enables persistence of state across app sessions using local storage.
+4. **[AsyncStore](https://github.com/upperdo/upper_flutter_stores/blob/master/doc/SEPARATED_ASYNC.md)**: Handles asynchronous state updates, such as network requests or time-based updates.
+5. **[ComputedStore](https://github.com/upperdo/upper_flutter_stores/blob/master/doc/SEPARATED_COMPUTED.md)**: Computes derived state based on dependencies, automatically recalculating when dependencies change.
+6. **[SnapshotStore](https://github.com/upperdo/upper_flutter_stores/blob/master/doc/SEPARATED_SNAPSHOTS.md)**: Allows taking and replaying snapshots of the state for debugging or temporal operations.
 
 Each store can be used independently or integrated into the `Store` class for a unified experience.
 

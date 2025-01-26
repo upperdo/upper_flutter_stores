@@ -25,7 +25,7 @@ To demonstrate how to use **upper_flutter_stores** to build a scalable enterpris
 
 ### Architecture
 
-We recommend the **Feature-First Architecture** as outlined in the [Suggested Architecture](https://github.com/upperdo/upper_flutter_stores/blob/main/docs/SUGGESTED_ARCHITECTURE.md) document.
+We recommend the **Feature-First Architecture** as outlined in the [Suggested Architecture](https://github.com/upperdo/upper_flutter_stores/blob/main/doc/SUGGESTED_ARCHITECTURE.md) document.
 
 ---
 
