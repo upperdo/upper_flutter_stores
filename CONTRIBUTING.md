@@ -22,7 +22,7 @@ We welcome contributions to the **upper_flutter_stores** package! Whether it's b
 
 ## Getting Started
 
-1. Familiarize yourself with the repository by reading the [README.md](https://github.com/upperdo/upper_flutter_stores/blob/master/README.md) and the [API Definition](https://github.com/upperdo/upper_flutter_stores/blob/main/docs/API_DEFINITION.md).
+1. Familiarize yourself with the repository by reading the [README.md](https://github.com/upperdo/upper_flutter_stores/blob/master/README.md) and the [API Definition](https://github.com/upperdo/upper_flutter_stores/blob/master/docs/API_DEFINITION.md).
 2. Make sure you have Flutter and Dart installed. Refer to the [Flutter Installation Guide](https://docs.flutter.dev/get-started/install).
 3. Clone the repository and set it up locally:
    ```bash
