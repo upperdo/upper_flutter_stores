@@ -22,7 +22,7 @@ We welcome contributions to the **upper_flutter_stores** package! Whether it's b
 
 ## Getting Started
 
-1. Familiarize yourself with the repository by reading the [README.md](https://github.com/upperdo/upper_flutter_stores/blob/main/README.md) and the [API Definition](https://github.com/upperdo/upper_flutter_stores/blob/main/docs/API_DEFINITION.md).
+1. Familiarize yourself with the repository by reading the [README.md](https://github.com/upperdo/upper_flutter_stores/blob/master/README.md) and the [API Definition](https://github.com/upperdo/upper_flutter_stores/blob/main/docs/API_DEFINITION.md).
 2. Make sure you have Flutter and Dart installed. Refer to the [Flutter Installation Guide](https://docs.flutter.dev/get-started/install).
 3. Clone the repository and set it up locally:
    ```bash
@@ -129,6 +129,6 @@ Help improve the documentation:
 1. Be respectful and collaborative.
 2. Use inclusive language.
 3. Provide constructive feedback during code reviews.
-4. Follow the [Code of Conduct](https://github.com/upperdo/upper_flutter_stores/blob/main/CODE_OF_CONDUCT.md).
+4. Follow the [Code of Conduct](https://github.com/upperdo/upper_flutter_stores/blob/master/CODE_OF_CONDUCT.md).
 
 Thank you for contributing to **upper_flutter_stores**! Together, we can build a powerful and intuitive state management library for Flutter developers.
